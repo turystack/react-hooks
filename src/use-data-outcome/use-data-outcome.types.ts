@@ -1,4 +1,4 @@
-  export type DataQuery<T> = {
+export type DataQuery<T> = {
   data?: T
   error?: unknown
   isFetching: boolean
